@@ -7,44 +7,32 @@ This project is unique: every screen, interaction, and design choice was crafted
 
 Live Demo: https://table-booking-qs03.onrender.com
 
-🚀 Features
+## 🚀 Features
+- 🏷 Restaurant categories on homepage  
+- 📋 Menu browsing with food details & prices  
+- 🗓 Table booking with **availability check** (prevents double-booking for same time & date)  
+- ⭐ Leave reviews & feedback for restaurant  
+- 📍 Google Maps integration to find restaurant location  
+- 🌗 Day/Night toggle mode  
+- ⚡ Smooth animations using animation libraries  
+- 📝 Responsive and user-friendly UI/UX
 
-🏷 Restaurant categories on homepage
+---
 
-📋 Menu browsing with food details & prices
+## 🛠️ Tech Stack
+- **React**  
+- **Vite**  
+- **Tailwind CSS**  
+- **React Router**  
+- **Context + useReducer / useContext** for state management  
+- **React Hook Form** for form handling  
+- **Sooner** (if you mean animation / library)  
+- **NavLink** for navigation
 
-🗓 Table booking with availability check (prevents double-booking for same time & date)
+---
 
-⭐ Leave reviews & feedback for the restaurant
-
-📍 Google Maps integration to find restaurant location
-
-🌗 Day/Night toggle mode
-
-⚡ Smooth animations using animation libraries
-
-📝 Unique and user-friendly UI/UX — all layouts and interactions designed personally
-
-🛠️ Tech Stack
-
-React
-
-Vite
-
-Tailwind CSS
-
-React Router
-
-Context + useReducer / useContext for state management
-
-React Hook Form for forms
-
-Sooner (animation library)
-
-NavLink for navigation
-
-📦 Installation & Run Locally
+## 📦 Installation & Run Locally
 
 Clone the project:
-
-git clone https://github.com/<GitHub-Username>/table-booking.git
+```bash
+git clone https://github.com/hasanmohameth/table-booking.git
