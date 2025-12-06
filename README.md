@@ -11,7 +11,8 @@ Live Demo: https://table-booking-qs03.onrender.com
 - 🏷 Restaurant categories on homepage  
 - 📋 Menu browsing with food details & prices  
 - 🗓 Table booking with **availability check** (prevents double-booking for same time & date)  
-- ⭐ Leave reviews & feedback for restaurant  
+- ⭐ Leave reviews & feedback for restaurant
+- ⏳ Loading & error handling
 - 📍 Google Maps integration to find restaurant location  
 - 🌗 Day/Night toggle mode  
 - ⚡ Smooth animations using animation libraries  
@@ -24,10 +25,11 @@ Live Demo: https://table-booking-qs03.onrender.com
 - Vite 
 - Tailwind CSS
 - React Router
-- Context + useReducer / useContext for state management  
-- React Hook Form for form handling  
+- Context + useReducer 
+- React Hook Form 
 - Sooner 
 - NavLink for navigation
+- ESlint
 
 ---
 
