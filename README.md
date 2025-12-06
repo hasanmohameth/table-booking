@@ -20,14 +20,14 @@ Live Demo: https://table-booking-qs03.onrender.com
 ---
 
 ## 🛠️ Tech Stack
-- **React**  
-- **Vite**  
-- **Tailwind CSS**  
-- **React Router**  
-- **Context + useReducer / useContext** for state management  
-- **React Hook Form** for form handling  
-- **Sooner** (if you mean animation / library)  
-- **NavLink** for navigation
+- React
+- Vite 
+- Tailwind CSS
+- React Router
+- Context + useReducer / useContext for state management  
+- React Hook Form for form handling  
+- Sooner 
+- NavLink for navigation
 
 ---
 
