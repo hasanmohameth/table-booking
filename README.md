@@ -29,6 +29,7 @@ Live Demo: https://table-booking-qs03.onrender.com
 - React Hook Form 
 - Sooner 
 - NavLink for navigation
+- Lazy()
 - ESlint
 
 ---
