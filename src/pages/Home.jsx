@@ -24,7 +24,7 @@ const Home = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      <div className="absolute inset-0 bg-white/0 backdrop-blur-[7px] p-8 text-center text-gray-900 dark:text-gray-100">
+      <div className="absolute inset-0 bg-white/0 backdrop-blur-[7px] p-8 text-center dark: shadow-md transition-colors duration-500 dark:text-gray-100">
         <h1 className="text-4xl font-bold mb-4">Welcome to Luxury NYC Restaurant</h1>
         <p className="mb-6">Enjoy the finest dining experience in New York City</p>
         <NavLink

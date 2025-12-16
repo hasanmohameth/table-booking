@@ -26,17 +26,17 @@ const BookingForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-6  bg-white rounded shadow-md max-w-md mx-auto dark:bg-gray-900 text-gray-900 dark:text-gray-100  ">
+    <form onSubmit={handleSubmit} className="p-6  bg-white rounded shadow-md max-w-md mx-auto dark:dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 text-gray-900 dark:text-gray-100  ">
       <label className="block mb-2 ">Date:</label>
-      <input type="date" value={date} onChange={e => setDate(e.target.value)} className="border p-2 w-full mb-4 dark:bg-gray-900 text-gray-900 dark:text-gray-100" required />
+      <input type="date" value={date} onChange={e => setDate(e.target.value)} className="border p-2 w-full mb-4 dark:dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 text-gray-900 dark:text-gray-100" required />
 
       <label className="block mb-2">Time:</label>
-      <select value={time} onChange={e => setTime(e.target.value)} className="border p-2 w-full mb-4 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <select value={time} onChange={e => setTime(e.target.value)} className="border p-2 w-full mb-4 dark:dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 text-gray-900 dark:text-gray-100">
         {times.map(t => <option key={t} value={t}>{t}</option>)}
       </select>
 
       <label className="block mb-2">People:</label>
-      <input type="number" min="1" max="10" value={people} onChange={e => setPeople(e.target.value)} className="dark:bg-gray-900 text-gray-900 dark:text-gray-100 border p-2 w-full mb-4" />
+      <input type="number" min="1" max="10" value={people} onChange={e => setPeople(e.target.value)} className="dark:dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 dark:text-gray-100 border p-2 w-full mb-4" />
 
       <button className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 w-full">Reserve</button>
     </form>

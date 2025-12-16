@@ -5,7 +5,7 @@ const About = () => {
   const [isLoading, setIsLoading] =  useState(true); 
 
   return (
-    <div className="p-8 mx-auto dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div className="p-8 mx-auto dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 dark:text-gray-100">
       <h1 className="text-3xl font-bold mb-4">About Our Restaurant</h1>
       <p className="mb-6">
         Located in the heart of NYC, our restaurant offers a luxurious dining experience.
@@ -15,7 +15,7 @@ const About = () => {
       <div className="mb-6">
         <div className="relative w-full h-[400px]">
           {isLoading && (
-            <div className="absolute inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-800 z-10">
+            <div className="absolute inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500">
               <span className="text-2xl">Loading map...</span>
             </div>
           )}

@@ -43,7 +43,7 @@ const Reviews = () => {
   const [showAddComment, setShowAddCommment] = useState(false);
 
   return (
-    <div className="h-screen p-8 mx-auto text-gray-900 dark:bg-gray-900 dark:text-gray-100 bg-slate-100">
+    <div className="h-screen p-8 mx-auto text-gray-900  dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 dark:text-gray-100 bg-slate-100">
       <h1 className="text-3xl font-bold mb-6">Customer Reviews</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -76,13 +76,13 @@ const Reviews = () => {
         >
           <input
             placeholder="Your name"
-            className="m-3 p-1 border rounded dark:bg-gray-900 dark:text-gray-100"
+            className="m-3 p-1 border rounded  dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 dark:text-gray-100"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
           />
           <input
             placeholder="Your review"
-            className="m-3 p-1 border rounded dark:bg-gray-900 dark:text-gray-100"
+            className="m-3 p-1 border rounded  dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 dark:text-gray-100"
             value={option}
             onChange={(e) => setOption(e.target.value)}
           />

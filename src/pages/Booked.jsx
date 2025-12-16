@@ -18,7 +18,7 @@ const Booked = () => {
   const noReservations = reseved.length === 0 && state.bookings.length === 0;
 
   return (
-    <div className="p-8 min-h-screen bg-slate-100 mx-auto dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div className="p-8 min-h-screen bg-slate-100 mx-auto dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 dark:text-gray-100">
       <h1 className="text-3xl font-bold mb-6">My Reservations</h1>
 
       {noReservations ? (
