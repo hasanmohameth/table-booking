@@ -97,7 +97,7 @@ const onSubmit = (data) => {
 return(
  <div className=" p-8 h-screen mx-auto dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 dark:text-gray-100   flex justify-center">
 <form onSubmit={handleSubmit(onSubmit)} className=" p-8 h-screen mx-auto dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50 transition-colors duration-500 dark:text-gray-100 " >
-      <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
+      <h1 className="text-3xl font-bold mb-6 flex justify-center ">Contact Us</h1>
 
  <input
         
