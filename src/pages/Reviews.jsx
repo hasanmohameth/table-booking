@@ -64,7 +64,7 @@ const Reviews = () => {
         onClick={() => setShowAddCommment(!showAddComment)}
       >
         {showAddComment ? (
-          <h4 onClick={!setShowAddCommment}>Close </h4>
+          <h4 >Close </h4>
         ) : (
           "Add comment"
         )}
