@@ -31,6 +31,7 @@ Live Demo: https://table-booking-qs03.onrender.com
 - NavLink for navigation
 - Lazy()
 - ESlint
+- JavaScript (ES6+)
 
 ---
 
