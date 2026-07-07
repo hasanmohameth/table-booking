@@ -5,7 +5,7 @@ Users can explore restaurant categories, browse menus, book tables, leave review
 
 This project is unique: every screen, interaction, and design choice was crafted and ideated personally, showcasing original creative and technical skills.
 
-Live Demo: https://table-booking-qs03.onrender.com
+Live Demo: https://table-booking-lilac.vercel.app/
 
 # 🛠️ Tech Stack
 - React
