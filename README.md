@@ -9,7 +9,7 @@ Live Demo: https://table-booking-qs03.onrender.com
 
 # 🛠️ Tech Stack
 - React
-- Vite 
+- JavaScript (ES6+)
 - Tailwind CSS
 - React Router
 - Context + useReducer 
@@ -17,8 +17,9 @@ Live Demo: https://table-booking-qs03.onrender.com
 - Sooner 
 - NavLink for navigation
 - Lazy()
+- Vite 
 - ESlint
-- JavaScript (ES6+)
+
 
 #🚀 Features
 - 🏷 Restaurant categories on homepage  
